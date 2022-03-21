@@ -1,6 +1,10 @@
  
  gcc -g p1original.c
- gdb a.out
+ ./a.out
+the base and height of the triangle are: 
+ 12
+15
+the area of the triangle is 90 :  gdb a.out
 GNU gdb (Ubuntu 8.1.1-0ubuntu1) 8.1.1
 Copyright (C) 2018 Free Software Foundation, Inc.
 License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
@@ -30,12 +34,12 @@ Breakpoint 1, main () at p1original.c:2
 the base and height of the triangle are: 
 5     scanf("%d %d", &a, &b);
 (gdb) n
- n
+ 3
+6
 6     area =(a*b)/2;
-(gdb) n
+(gdb) 
 7     printf("the area of the triangle is %d : ", area);
 (gdb) n
 9     return area;
 (gdb) n
 10  }
-(gdb) 
