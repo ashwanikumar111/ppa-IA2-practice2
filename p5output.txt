@@ -1,10 +1,4 @@
-
- 
- gcc -g p5original.c
- ./a.out
-Enter the numbers:12
-Enter the numbers:15
-GCD OF 12 and 15 is 3
+gcc -g p5original.c
  gdb a.out
 GNU gdb (Ubuntu 8.1.1-0ubuntu1) 8.1.1
 Copyright (C) 2018 Free Software Foundation, Inc.
@@ -43,8 +37,9 @@ GCD OF 12 and 15 is 3
 (gdb) n
 33  }
 (gdb) n
-__libc_start_main (main=0x55f84d2007f6 <main>, argc=1, argv=0x7ffed4afa1c8, 
-    init=<optimized out>, fini=<optimized out>, rtld_fini=<optimized out>, 
-    stack_end=0x7ffed4afa1b8) at ../csu/libc-start.c:344
+__libc_start_main (main=0x55ab6ae007f6 <main>, argc=1, 
+    argv=0x7ffdb8403e88, init=<optimized out>, 
+    fini=<optimized out>, rtld_fini=<optimized out>, 
+    stack_end=0x7ffdb8403e78) at ../csu/libc-start.c:344
 344 ../csu/libc-start.c: No such file or directory.
 (gdb) 
